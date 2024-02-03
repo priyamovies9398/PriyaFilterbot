@@ -1,8 +1,8 @@
 {
-    "name": "ᎯℕUℛᎯᎶ",
-    "description": "Clone Of ᎯℕUℛᎯᎶ & More Features Added",
+    "name": "PRIYA",
+    "description": "BOT BY TEAM PRIYAMOVIS",
     "stack": "container",
-    "logo": "https://telegra.ph/file/9ee1253e36b37a1665ce2.jpg",
+    "logo": "https://telegra.ph/file/27dd32971cd555fd26ef8.jpg",
     "keywords": [
       "telegram",
       "auto-filter",
@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/AM-ROBOTS/AM-ROBOTS",
-    "repository": "https://github.com/AM-ROBOTS/AM-ROBOTS",
+    "website": "https://github.com/priyamovies9398/PriyaFilterbot",
+    "repository": "https://github.com/priyamovies9398/PriyaFilterbot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",

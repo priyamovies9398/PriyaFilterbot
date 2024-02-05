@@ -108,7 +108,7 @@ async def next_page(bot, query):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/PriyaBotUpdates')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/How_toOpenlinks')
         ]
     )
 
@@ -149,7 +149,7 @@ async def next_page(bot, query):
 async def advantage_spoll_choker(bot, query):
     _, user, movie_ = query.data.split('#')
     if int(user) != 0 and query.from_user.id != int(user):
-        return await query.answer("😁 𝗛𝗲𝘆 Friendu,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 𝗬𝗼𝘂𝗿𝘀𝗲𝗹𝗳.Vadidhi nik enduku", show_alert=True)
+        return await query.answer("😁 𝗛𝗲𝘆 Friendu,𝗣𝗹𝗲𝗮𝘀𝗲 𝗦𝗲𝗮𝗿𝗰𝗵 Leave It Frnd", show_alert=True)
     if movie_ == "close_spellcheck":
         return await query.message.delete()
     movies = SPELL_CHECK.get(query.message.reply_to_message.id)
@@ -164,7 +164,7 @@ async def advantage_spoll_choker(bot, query):
             k = (movie, files, offset, total_results)
             await auto_filter(bot, query, k)
         else:
-            k = await query.message.edit('𝐓𝐇𝐈𝐒 𝐌𝐎𝐕𝐈𝐄 𝐈𝐒 𝐍𝐎𝐓 𝐘𝐄𝐓 𝐑𝐄𝐋𝐄𝐀𝐒𝐄𝐃 𝐎𝐑 𝐀𝐃𝐃𝐄𝐃 𝐓𝐎 𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 IF U WANT THIS MOVIE CONTACT @djreme HE UPLOAD IT.💌')
+            k = await query.message.edit('𝐓𝐇𝐈𝐒 𝐌𝐎𝐕𝐈𝐄 𝐈𝐒 𝐍𝐎𝐓 𝐘𝐄𝐓 𝐑𝐄𝐋𝐄𝐀𝐒𝐄𝐃 𝐎𝐑 𝐀𝐃𝐃𝐄𝐃 𝐓𝐎 𝐃𝐀𝐓𝐀𝐁𝐀𝐒𝐄 IF U WANT THIS MOVIE CONTACT @Shivaash12 HE UPLOAD IT.💌')
             await asyncio.sleep(10)
             await k.delete()
 
@@ -434,8 +434,8 @@ async def cb_handler(client: Client, query: CallbackQuery):
         buttons = [[
             InlineKeyboardButton('✨ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
         ], [
-            InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url='https://t.me/Sai_File_Store_CC'),
-            InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/PriyaBotUpdates')
+            InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url='https://t.me/moviesclub02'),
+            InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/moviesclubs01')
         ], [
             InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', callback_data='help'),
             InlineKeyboardButton('🌟 𝐀𝐁𝐎𝐔𝐓 🌟', callback_data='about')
@@ -687,7 +687,7 @@ async def auto_filter(client, msg, spoll=False):
 
     btn.insert(0,
         [
-            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/PriyaBotUpdates')
+            InlineKeyboardButton(text="⚡ʜᴏᴡ ᴛᴏ ᴅᴏᴡɴʟᴏᴀᴅ⚡", url='https://t.me/How_toOpenlinks')
         ]
      )         
     

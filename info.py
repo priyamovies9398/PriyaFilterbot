@@ -12,27 +12,27 @@ def is_enabled(value, default):
 
 # Bot information
 SESSION = environ.get('SESSION', 'Media_search')
-API_ID = int(environ.get('API_ID', '25209455'))
-API_HASH = environ.get('API_HASH', 'a98a05c04b469f8ed80e1e543c84e515')
-BOT_TOKEN = environ.get('BOT_TOKEN', "5694117908:AAEK4OGIc2-TVx2zKU26W-CF1Jy0vUI_TfU")
+API_ID = int(environ.get('API_ID', '3754240'))
+API_HASH = environ.get('API_HASH', 'd42230fdbe182a73dfe9f5f57588e833)
+BOT_TOKEN = environ.get('BOT_TOKEN', "6314046384:AAEya-6saIQGTPcL0ABH28va7T6mfoxm3xw")
 
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', False))
-PICS = (environ.get('PICS', 'https://telegra.ph/file/1dd4c31f1e1f18bf5c3e4.jpg')).split()
+PICS = (environ.get('PICS', 'https://graph.org/file/a4e2c225b576acad02c5d.jpg')).split()
 
 # Admins, Channels & Users
-ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1337013299').split()]
+ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '1618695477').split()]
 CHANNELS = [int(ch) if id_pattern.search(ch) else ch for ch in environ.get('CHANNELS', '0').split()]
-auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1337013299').split()]
+auth_users = [int(user) if id_pattern.search(user) else user for user in environ.get('AUTH_USERS', '1618695477').split()]
 AUTH_USERS = (auth_users + ADMINS) if auth_users else []
-auth_channel = environ.get('AUTH_CHANNEL', '-1001979592528')
+auth_channel = environ.get('AUTH_CHANNEL', '-1001946798980')
 auth_grp = environ.get('AUTH_GROUP')
 AUTH_CHANNEL = int(auth_channel) if auth_channel and id_pattern.search(auth_channel) else None
 AUTH_GROUPS = [int(ch) for ch in auth_grp.split()] if auth_grp else None
 
 # MongoDB information
-DATABASE_URI = environ.get('DATABASE_URI', "mongodb+srv://saruku123:saruku123@cluster0.gdljzd8.mongodb.net/?retryWrites=true&w=majority")
+DATABASE_URI = environ.get('DATABASE_URI', "0")
 DATABASE_NAME = environ.get('DATABASE_NAME', "saruku123")
 COLLECTION_NAME = environ.get('COLLECTION_NAME', 'Telegram_files')
 
@@ -68,8 +68,8 @@ LOG_STR += f"Your current IMDB template is {IMDB_TEMPLATE}"
     
       # URL Shortener #
 
-URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'https://earnpro.in')
-URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '617ca7897ffb396d420ab82c3862240f6021e84b')
+URL_SHORTENR_WEBSITE = environ.get('URL_SHORTENR_WEBSITE', 'https://gplinks.co')
+URL_SHORTNER_WEBSITE_API = environ.get('URL_SHORTNER_WEBSITE_API', '8f3169dc4aa2da591cf7b7b30640021daf6de6e6')
 
      # Auto Delete For Group Message (Self Delete) #
 SELF_DELETE_SECONDS = int(environ.get('SELF_DELETE_SECONDS', 300))
@@ -79,7 +79,7 @@ if SELF_DELETE == "True":
 
     # Download Tutorial Button #
 DOWNLOAD_TEXT_NAME = "📥 HOW TO DOWNLOAD 📥"
-DOWNLOAD_TEXT_URL = "https://t.me/PriyaBotUpdates"
+DOWNLOAD_TEXT_URL = "https://t.me/How_toOpenlinks"
 
    # Custom Caption Under Button #
 CAPTION_BUTTON = "Subscribe"

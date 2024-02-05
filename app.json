@@ -16,8 +16,8 @@
       "index",
       "inline"
     ],
-    "website": "https://github.com/priyamovies9398/PriyaFilterbot",
-    "repository": "https://github.com/priyamovies9398/PriyaFilterbot",
+    "website": "https://github.com/1206moviesclub/MC--Filter-bot",
+    "repository": "https://github.com/1206moviesclub/MC--Filter-bot",
     "env": {
         "BOT_TOKEN": {
             "description": "Your bot token.",

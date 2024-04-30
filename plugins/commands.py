@@ -23,7 +23,7 @@ async def start(client, message):
     if message.chat.type in [enums.ChatType.GROUP, enums.ChatType.SUPERGROUP]:
         buttons = [
             [
-                InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/PriyaBotUpdates')
+                InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/PriyaMovis')
             ],
             [
                 InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url=f"https://t.me/Sai_File_Store_CC"),
@@ -48,7 +48,7 @@ async def start(client, message):
             InlineKeyboardButton('✨ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url='https://t.me/Sai_File_Store_CC'),
-            InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/PriyaBotUpdates')
+            InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/PriyaMovis')
             ],[
             InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', callback_data='help'),
             InlineKeyboardButton('🌟 𝐀𝐁𝐎𝐔𝐓 🌟', callback_data='about')
@@ -70,7 +70,7 @@ async def start(client, message):
         btn = [
             [
                 InlineKeyboardButton(
-                    "🔥 𝐉𝐎𝐈𝐍 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🔥", url='https://t.me/PriyaBotUpdates'
+                    "🔥 𝐉𝐎𝐈𝐍 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 🔥", url='https://t.me/Sai_File_Store_CC'
                 )
             ]
         ]
@@ -94,7 +94,7 @@ async def start(client, message):
             InlineKeyboardButton('✨ 𝐀𝐃𝐃 𝐌𝐄 𝐓𝐎 𝐘𝐎𝐔𝐑 𝐆𝐑𝐎𝐔𝐏 ✨', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
             InlineKeyboardButton('⚡ 𝐂𝐇𝐀𝐍𝐍𝐄𝐋 ⚡', url='https://t.me/Sai_File_Store_CC'),
-            InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/PriyaBotUpdates')
+            InlineKeyboardButton('❣️ 𝐔𝐏𝐃𝐀𝐓𝐄𝐒 ❣️', url='https://t.me/PriyaMovis')
             ],[
             InlineKeyboardButton('💌 𝐇𝐄𝐋𝐏 💌', callback_data='help'),
             InlineKeyboardButton('🌟 𝐀𝐁𝐎𝐔𝐓 🌟', callback_data='about')

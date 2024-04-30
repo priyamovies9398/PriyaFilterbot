@@ -11,10 +11,11 @@ def is_enabled(value, default):
         return default
 
 class script(object):
-    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://earnpro.in/ref/priyamovis9398')
+    HOME_BUTTONURL_UPDATES = environ.get("HOME_BUTTONURL_UPDATES", 'https://onepagelink.in/ref/priyamovis9398')
     START_TXT = environ.get("START_TXT", '''<b>Hello {} 👋🏻 ɪ ᴀᴍ ᴀ ᴘᴏᴡᴇʀꜰᴜʟ ᴀᴜᴛᴏꜰɪʟᴛᴇʀ + ᴍᴀɴᴜᴀʟꜰɪʟᴛᴇʀ + ꜰɪʟᴇsᴛᴏʀᴇ ʙᴏᴛ🔥.
 
-ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.ɪ ᴡɪʟʟ ɢɪᴠᴇ Theater|DVD|Sprint|HDTC ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ also in ᴘᴍ✨      
+ʏᴏᴜ ᴄᴀɴ ᴜsᴇ ᴍᴇ ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ.ɪ ᴡɪʟʟ ɢɪᴠᴇ HD And Multi Audio ᴍᴏᴠɪᴇs ɪɴ ʏᴏᴜʀ ɢʀᴏᴜᴘ ᴀɴᴅ also in ᴘᴍ✨      
+
 IF U HAVE ANY Queries CONTACT To @Priyassbot✨ !!</b>''')
 
 
@@ -24,9 +25,9 @@ IF U HAVE ANY Queries CONTACT To @Priyassbot✨ !!</b>''')
 👨‍💻 ᴅᴇᴠᴇʟᴏᴘᴇʀ : <a href=https://t.me/djreme><b>PRIYA OFFICIAL✨</b></a>\n
 📝 ʟᴀɴɢᴜᴀɢᴇ : ᴘʏʀᴏɢʀᴀᴍ\n
 📚 ꜰʀᴀᴍᴇᴡᴏʀᴋ : ᴘʏᴛʜᴏɴ 3\n
-📡 ʜᴏsᴛᴇᴅ ᴏɴ : TELIDU Ra\n
+📡 ʜᴏsᴛᴇᴅ ᴏɴ : MI x5 Pro\n
 📢 ᴜᴘᴅᴀᴛᴇs ᴄʜᴀɴɴᴇʟ : <a href=https://t.me/Sai_File_Store_CC><b></b>ᴄʟɪᴄᴋ ʜᴇʀᴇ</a>\n
-🌟 ᴠᴇʀsɪᴏɴ : ᴠ 4.0\n</b></i>"""
+🌟 ᴠᴇʀsɪᴏɴ : ᴠ 9.0\n</b></i>"""
     SOURCE_TXT = """<b>𝐂𝐫𝐞𝐚𝐭𝐞 𝐎𝐧𝐞 𝐋𝐢𝐤𝐞 𝐓𝐡𝐢𝐬:</b>
 » I will Create One Bot For You FOR PAID At Cheap<b>
 » Contact Me [@djreme]<b>"""
